@@ -8,8 +8,10 @@ However, there are some trade-offs with accuracy when using lower precision.
 #fusion:
 fusion, where multiple layers can be fused into a single operation.
 These are achieved through the Model Optimizer in OpenVINO™, although the Pre-Trained Models have already been run through that process
+L2.10 
+choosing right model
 
-L2.10
+L2.11
 
 The pre-processing needed for a network will vary, but usually this is something you can check out in any related documentation,
 including in the OpenVINO™ Toolkit documentation. 

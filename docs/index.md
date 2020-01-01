@@ -75,4 +75,4 @@ Car Meta
 preprocessed_image = preprocessing(preprocessed_image, 72, 72)
 
 
-<a href="/L4.md">Page 2</a>
+<a href="https://willsonv.github.io/IntelEdge/L4.md">Page 2</a>

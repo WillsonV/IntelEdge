@@ -3,8 +3,7 @@ layout: page
 title: "Willson Intel"
 permalink: /IntelEdge/
 
-<a href="https://willsonv.github.io/IntelEdge/L4  The Inference Engine.md">L4  The Inference Engine</a>
-[l4](L4  The Inference Engine.md)
+[l4](L4-The_Inference_Engine.md)
 
 L2.9
 #Optimizations on the Pre-Trained Models

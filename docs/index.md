@@ -4,7 +4,7 @@ title: "Willson Intel"
 permalink: /IntelEdge/
 
 
-
+[Lesson 4 The Inference Engine](L4  The Inference Engine.md)
 
 L2.9
 #Optimizations on the Pre-Trained Models

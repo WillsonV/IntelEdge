@@ -1,5 +1,10 @@
 #### L4.2
 
+>From Quiz question </br>
+Q) Inference Engine?  </br>  
+A) It provides a library of computer vision functions and performs the inference on a model.
+
+
 1. The Inference Engine runs the actual inference on a model.
 2. It only works with the Intermediate Representations that come from the Model Optimizer, or the Intel® Pre-Trained Models in OpenVINO™ that are already in IR format.
 [alt Image ]

@@ -2,6 +2,7 @@
 
 1. The Inference Engine runs the actual inference on a model.
 2. It only works with the Intermediate Representations that come from the Model Optimizer, or the Intel® Pre-Trained Models in OpenVINO™ that are already in IR format.
+[alt Image ]
 
 ##### Model Optimizer vs Inference Engine
 Where the Model Optimizer made some improvements to size and complexity of the models to improve memory and computation times, the Inference Engine provides hardware-based optimizations to get even further improvements from a model.

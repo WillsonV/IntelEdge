@@ -36,3 +36,41 @@ However, it is very common to utilize the built-in Python wrapper to interact wi
 There are also some differences among supported layers by device, which is linked to at the bottom of this page. Another important one to note is regarding when you use an Intel® Neural Compute Stick (NCS). An easy, fairly low-cost method of testing out an edge app locally, outside of your own computer is to use the NCS2 with a Raspberry Pi. The Model Optimizer is not supported directly with this combination, so you may need to create an Intermediate Representation on another system first, although there are some instructions for one way to do so on-device. The Inference Engine itself is still supported with this combination.
 
 -----------------------------------------------------------------------------------------------------------------------------------
+
+##### L4.4 Using the Inference Engine with an IR
+
+To load an IR into the Inference Engine, you’ll mostly work with two classes in the openvino.inference_engine library (if using Python):
+
+- **IECore**, which is the Python wrapper to work with the Inference Engine.
+- **IENetwork**, which is what will initially hold the network and get loaded into IECore.
+
+The next step after importing is to set a couple variables to actually use the IECore and IENetwork.
+ - In the IECore documentation, no arguments are needed to initialize. [IECore()]
+ - To use IENetwork, you need to load arguments named model and weights to initialize - the XML and Binary files that make up the model’s Intermediate Representation.[ IENetwork (model,weights)]
+ 
+ 
+ ###### Check Supported Layers
+ 
+ In the IECore documentation, there was another function called ```query_network``` , which takes in arguments </br>   
+ - IENetwork  
+ - a device name  
+ - returns a list of layers the Inference Engine supports.
+ 
+ The device_name argument is just a string for which device is being used - ”CPU”, ”GPU”, ”FPGA”, or ”MYRIAD” (which applies for the  Neural Compute Stick).
+ 
+  > You can then iterate through the layers in the IENetwork you created, and check whether they are in the supported layers list. If a layer was not supported, a ```CPU extension``` may be able to help
+  
+ ##### CPU extension
+ 
+ 
+  
+  
+  
+    
+    
+    
+    
+ 
+
+
+

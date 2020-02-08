@@ -67,11 +67,11 @@ The next step after importing is to set a couple variables to actually use the I
    
    These do differ by operating system a bit, although they should still be in the same overall location. If you navigate to your OpenVINO™ install directory, then deployment_tools, inference_engine, lib, intel64:
 
-On Linux, you’ll see a few CPU extension files available for AVX and SSE. That’s a bit outside of the scope of the course, but look up Advanced Vector Extensions if you want to know more there. In the classroom workspace, the SSE file will work fine.
-Intel® Atom processors use SSE4, while Intel® Core processors will utilize AVX.
-This is especially important to make note of when transferring a program from a Core-based laptop to an Atom-based edge device. If the incorrect extension is specified in the application, the program will crash.
-AVX systems can run SSE4 libraries, but not vice-versa.
-On Mac, there’s just a single CPU extension file.
+- On Linux, you’ll see a few CPU extension files available for AVX and SSE. That’s a bit outside of the scope of the course, but look up Advanced Vector Extensions if you want to know more there. In the classroom workspace, the SSE file will work fine.  
+- Intel® Atom processors use SSE4, while Intel® Core processors will utilize AVX.  
+- This is especially important to make note of when transferring a program from a Core-based laptop to an Atom-based edge device. If the incorrect extension is specified in the application, the program will crash.  
+- AVX systems can run SSE4 libraries, but not vice-versa.  
+- On Mac, there’s just a single CPU extension file.  
 You can add these directly to the IECore using their full path. After you’ve added the CPU extension, if necessary, you should re-check that all layers are now supported. If they are, it’s finally time to load the model into the IECore
    
    

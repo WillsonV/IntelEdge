@@ -23,6 +23,6 @@ Not every single app needs it - you can likely wait a second while your voice ap
 
 -------------------------------------------------------------------------------------
 Q) Which of these are reasons for development of the Edge?
-A) Proliferation of devices
-   Need for low-latency compute
+A) Proliferation of devices  
+   Need for low-latency compute  
    Need for disconnected devices

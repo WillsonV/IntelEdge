@@ -31,9 +31,24 @@ A) Proliferation of devices
 - lesson 1.5 Applications of Egde AI In various field  
 - lesson 1.6 Historical context
 -----------------------------------------------------------------------------------
-### Lesson 1.7 | Course Structure of Foundation Course 
+### Lesson 1.6 | Course Structure of Foundation Course 
 
 - First, we’ll start off with pre-trained models available in the OpenVINO™ Open Model Zoo. Even without needing huge amounts of your own data and costly training, you can deploy powerful models already created for many applications.  
 - Next, you’ll learn about the Model Optimizer, which can take a model you trained in frameworks such as TensorFlow, PyTorch, Caffe and more, and create an Intermediate Representation (IR) optimized for inference with OpenVINO™ and Intel® hardware.  
 - Third, you’ll learn about the Inference Engine, where the actual inference is performed on the IR model.  
 - Lastly, we'll hit some more topics on deploying at the edge, including things like handling input streams, processing model outputs, and the lightweight MQTT architecture used to publish data from your edge models to the web.
+
+------------------------------------------------------------------------------------
+### Lesson 7 | Big Picture | Why Are the Topics Distinct?
+
+- Pre-trained models can be used to explore your options without the need to train a model. This pre-trained model can then be used with the Inference Engine, as it will already be in IR format. This can be integrated into your app and deployed at the edge.  
+- If you created your own model, or are leveraging a model not already in IR format (TensorFlow, PyTorch, Caffe, MXNet, etc), use the Model Optimizer first. This will then feed to the Inference Engine, which can be integrated into your app and deployed at the edge.  
+- While you'll be able to perform some amazingly efficient inference after feeding into the Inference Engine, you'll still want to appropriately handle the output for the edge application, and that's what we'll hit in the final lesson.
+
+* see slides from this lesson for better understanding
+
+- use cases of diffrent software used in this course?  
+    - Model Optimizer----->  convert model(to IR) for further use with toolkit.  
+    - Open Model Zoo------> Obtain a pre tarined model from here.  
+    - Inference Engine ------> Performs inference on the IR.
+

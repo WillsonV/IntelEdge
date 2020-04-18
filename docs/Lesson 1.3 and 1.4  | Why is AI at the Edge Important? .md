@@ -51,4 +51,21 @@ A) Proliferation of devices
     - Model Optimizer----->  convert model(to IR) for further use with toolkit.  
     - Open Model Zoo------> Obtain a pre tarined model from here.  
     - Inference Engine ------> Performs inference on the IR.
+    
+    --------------------------------------------------------------------------------
+    ### Lesson 1.8 | Prerequisites
+
+- Prerequisites:  
+  - Understand some of the basics of computer vision and how AI models are created.  
+   - Basic Python or C++ experience. This first course is mainly in Python, although C++ can be used with the Intel® Distribution of     OpenVINO™ Toolkit easily as well (and can be faster in a completed app!).  
+   - We will not be training models in this course, as our focus is on optimization & deployment at the edge.  
+    Classroom workspaces will be available for exercises, so no set-up required if you plan to use them.  
+    - Local Set-up  
+    Make sure to make note of the hardware requirements for the Intel® Distribution of OpenVINO™ Toolkit if you want to work locally.
+If you do want to do the exercises on your local machine (or perhaps even on a set-up like a Raspberry Pi with an Intel® Neural Compute Stick 2), you can follow the instructions below for your operating system.  
+Note: The classroom workspaces in this course use the 2019 R3 version of the toolkit, so there may be some variance in syntax from newer versions.
+
+- Download the Toolkit  
+  - Intel® DevCloud - Edge  
+  There is also the new Intel® DevCloud platform for testing out edge environments. This allows you to have access to a range of Intel® hardware such as CPUs, GPUs, FPGAs, Neural Compute Stick, and more. Later courses will get more into the hardware side of things, but this another option for working with an edge environment.
 

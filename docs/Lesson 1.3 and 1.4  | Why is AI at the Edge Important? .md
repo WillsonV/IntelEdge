@@ -68,4 +68,17 @@ Note: The classroom workspaces in this course use the 2019 R3 version of the too
 - Download the Toolkit  
   - Intel® DevCloud - Edge  
   There is also the new Intel® DevCloud platform for testing out edge environments. This allows you to have access to a range of Intel® hardware such as CPUs, GPUs, FPGAs, Neural Compute Stick, and more. Later courses will get more into the hardware side of things, but this another option for working with an edge environment.
+  
+  ----------------------------------------------------------------------------------------
+  ### Lesson 1.9 | People Counter App  
+  
+  In the project at the end of the course, you’ll build and deploy a People Counter App at the Edge. In the project, you will:
+
+Convert a model to an Intermediate Representation (IR)  
+Use the IR with the Inference Engine  
+Process the output of the model to gather relevant statistics  
+Send those statistics to a server, and  
+Perform analysis on both the performance and further use cases of your model.
+
+-------------------------------------------------------------------------------------------
 

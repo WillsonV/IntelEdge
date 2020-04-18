@@ -2,7 +2,7 @@
 - Network impacts
 - Latency Considerations
 - Security concerns
--Optimizations for local inrefrence.
+- Optimizations for local inrefrence.
 
 
 - Network communication can be expensive (bandwidth, power consumption, etc.) and sometimes impossible (think remote locations or during natural disasters)
@@ -26,3 +26,14 @@ Q) these are reasons for development of the Edge?
 A) Proliferation of devices  
    Need for low-latency compute  
    Need for disconnected devices
+   
+------------------------------------------------------------------------------------
+- lesson 1.5 Applications of Egde AI In various field  
+- lesson 1.6 Historical context
+-----------------------------------------------------------------------------------
+### Lesson 1.7 | Course Structure of Foundation Course 
+
+- First, we’ll start off with pre-trained models available in the OpenVINO™ Open Model Zoo. Even without needing huge amounts of your own data and costly training, you can deploy powerful models already created for many applications.  
+- Next, you’ll learn about the Model Optimizer, which can take a model you trained in frameworks such as TensorFlow, PyTorch, Caffe and more, and create an Intermediate Representation (IR) optimized for inference with OpenVINO™ and Intel® hardware.  
+- Third, you’ll learn about the Inference Engine, where the actual inference is performed on the IR model.  
+- Lastly, we'll hit some more topics on deploying at the edge, including things like handling input streams, processing model outputs, and the lightweight MQTT architecture used to publish data from your edge models to the web.
